@@ -1,0 +1,153 @@
+
+.tocken
+{
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.btn-style
+{
+   border-radius: 8px;
+   width: 28px;
+
+}
+.cntr-style
+{
+    height: 1500px;
+}
+.label-style
+{
+    margin-top: 26px;
+    
+}
+.nav-style
+{
+    background-color: rgb(255, 255, 255);
+    height: 25px;
+}
+.home-style1
+{
+    box-shadow: lightgray;
+}
+.home-style2
+{
+    background-color: rgb(248, 241, 241);
+}
+.icon-parent-div{
+    position:absolute;
+    padding-bottom: 200px;
+    margin-top: -95px;
+    margin-left: 25px;
+}
+.card-style
+{
+   border-radius: 8px;
+    position: relative;
+    height: 300px;
+    width: 250px;
+}
+.card-img
+{
+    height: 120px;
+    width: 120px;
+}
+.radio-style
+{
+    height: 22px;
+    width: 22px;
+    border-radius: 20px;
+
+}
+.check-bank
+{
+    margin-left: 96px;
+
+}
+.check-hsptl
+{
+    margin-left: 77px;
+
+}
+.check-govt
+{
+    margin-left: 80px;
+
+}
+.check-int
+{
+    margin-left: 57px;
+
+}
+.check-oth
+{
+    margin-left: 55px;
+
+}
+.check-hr
+{
+    margin-left: 96px;
+
+}
+.check-park
+{
+    margin-left: 90px;
+
+}
+.check-ac
+{
+    margin-left: 118px;
+
+}
+.check-wifi
+{
+    margin-left: 114px;
+
+}
+.check-card
+{
+    margin-left: 110px;
+
+}
+.check-mob
+{
+    margin-left: 44px;
+
+}
+.check-cash
+{
+    margin-left: 107px;
+
+}
+.img-res
+{
+    height: 20px;
+    margin-bottom: 10px;
+}
+.off-style
+{
+    background-color: white !important;
+   
+}
+.menu-off
+{
+    color: black !important;
+
+}
+.text-align
+{
+    text-align: center;
+    color: #626161;
+    text-transform: uppercase;
+    font-size: 11px !important;
+    letter-spacing: 0.1px;
+    box-sizing: border-box;
+    margin-bottom: -1 !important;
+}
+.text-parent-dev
+{
+    font-size: x-large;
+    color: rgb(17, 103, 216);
+    text-transform: uppercase;
+
+}

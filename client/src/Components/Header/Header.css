@@ -1,0 +1,16 @@
+.img-class
+{
+    height: 60px;
+    width: 100%; 
+}
+.search-style
+{
+    width: 250px;
+}
+.back-style
+{
+   border-radius: 5px;
+   color: black;
+   border-color: black;
+
+}
