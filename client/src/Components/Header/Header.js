@@ -10,7 +10,7 @@ import search from '../../assets/search.svg'
 export default function Header() {
     return (
         <div>
-            <header  >
+            <header   >
 		    <div class="container-fluid header_in uk-visible@m">
 			    <div class="row">
 				    <div class="col-lg-2 col-sm-2  ">
@@ -25,23 +25,23 @@ export default function Header() {
                                 <input class="uk-search-input uk-margin-top uk-margin-small-left back-style" type="txt" placeholder=" Search Sectors"/>
                             </form>
                             <p uk-margin>
-                                <button class="uk-button uk-button-primary uk-margin-top uk-margin-left btn-style "><label className="uk-text-small">Search</label></button>
+                                <button class="uk-button uk-button-primary uk-margin-top uk-margin-left btn-style "><label className="uk-text-small search-label">Search</label></button>
                             </p>
                             <div className=" row tocken  uk-margin-left " >
-	                            <img className=" " src={tockenlog}/>
+	                            <img className="tocken-img" src={tockenlog}/>
                                 <h6 className="label-style uk-margin-small-left">Token</h6>
 	                        </div>
                         </div>
 				    </div>
 				    <div class="col-lg-3 col-12">
                         <div className="row" >   
-                            <p uk-margin>
-                                <button class="uk-button  uk-margin-top uk-margin-left  "><label className="uk-text-small">Sign In</label></button>
+                        <p uk-margin>
+                                <button class="uk-button   uk-margin-top uk-margin-large-left btn-search-style "><label className="uk-text-small sign-label">SignIn</label></button>
                             </p>
                             <p uk-margin>
-                                <button class="uk-button uk-button-primary uk-margin-top uk-margin-small-left  "><label className="uk-text-small">Sign Up</label></button>
+                                <button class="uk-button uk-button-primary uk-margin-top uk-margin-left btn-search-style "><label className="uk-text-small sign-label">SignUp</label></button>
                             </p>
-                        <span class="uk-margin-top uk-margin-small-left "  uk-icon="icon: menu; ratio: 1.3"></span>
+                        <span class="uk-margin-top uk-margin-left "  uk-icon="icon: menu; ratio: 1.3"></span>
 
                         </div>
 			        </div>
@@ -70,29 +70,31 @@ export default function Header() {
                                 </div>
                             </div>
                             <img className="img-res uk-margin-small-top uk-margin-left" src={logo} alt="logo"/>
-                            <img className="img-res uk-margin-small-top uk-margin-left" src={user} alt="logo"/>
-                            <img className="img-res uk-margin-small-top uk-margin-left" src={tocken} alt="logo"/>
-                            <img className="img-res uk-margin-small-top uk-margin-left" uk-toggle="target: #offcanvas-flip" src={search} alt="logo"/>
+                            <img className="img-res uk-margin-small-top uk-margin-large-left" src={user} alt="logo"/>
+                            <img className="img-res uk-margin-small-top uk-margin-large-left" src={tocken} alt="logo"/>
+
+                            <img className="img-res uk-margin-small-top uk-margin-large-left" uk-toggle="target: #offcanvas-flip" src={search} alt="logo"/>
                             <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
-                                <div class="uk-offcanvas-bar off-style">
+                                <div class="uk-offcanvas-bar off-style ">
                                     <button class="uk-offcanvas-close" type="button" uk-close></button>
                                     <form class="uk-search uk-search-default search-style">
-                                        <input class="uk-search-input uk-margin-top back-style  " type="txt" placeholder="Location Search"/>
+                                        <input class="uk-search-input uk-margin-top back-style   " type="txt" placeholder="Location Search"/>
                                     </form>
                                     <form class="uk-search uk-search-default search-style">
-                                        <input class="uk-search-input uk-margin-top   back-style" type="txt" placeholder=" Search Sectors"/>
+                                        <input class="uk-search-input uk-margin-top    back-style" type="txt" placeholder=" Search Sectors"/>
                                     </form>
                                     <p uk-margin>
                                         <button class="uk-button uk-button-primary uk-margin-top  uk-align-center uk-margin-left   "><label className="uk-text-small">Search</label></button>
                                     </p>
                                 </div>
                             </div>
+                            
             			</div>
                     </div>
                 </div>
                 {/* end responsive bar */}
                 <hr/>
-                <div className="uk-margin-bottom">
+                <div className="uk-margin-bottom nav-dev">
                     <nav class="uk-navbar uk-visible@m nav-style uk-navbar">
                         <div class="uk-navbar-right">
                             <ul class="uk-navbar-nav">
@@ -106,7 +108,7 @@ export default function Header() {
                             </ul>
                         </div>
                     </nav>
-                    <span uk-icon="location"></span>Select your location
+                    <span uk-icon="location" ></span> <label class ="uk-text-center@s">Select your location</label>
                 </div>
                  
             </div>

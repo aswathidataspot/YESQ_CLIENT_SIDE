@@ -51,88 +51,7 @@
 {
     height: 120px;
     width: 120px;
-}
-.radio-style
-{
-    height: 22px;
-    width: 22px;
-    border-radius: 20px;
-
-}
-.check-bank
-{
-    margin-left: 96px;
-
-}
-.check-hsptl
-{
-    margin-left: 77px;
-
-}
-.check-govt
-{
-    margin-left: 80px;
-
-}
-.check-int
-{
-    margin-left: 57px;
-
-}
-.check-oth
-{
-    margin-left: 55px;
-
-}
-.check-hr
-{
-    margin-left: 96px;
-
-}
-.check-park
-{
-    margin-left: 90px;
-
-}
-.check-ac
-{
-    margin-left: 118px;
-
-}
-.check-wifi
-{
-    margin-left: 114px;
-
-}
-.check-card
-{
-    margin-left: 110px;
-
-}
-.check-mob
-{
-    margin-left: 44px;
-
-}
-.check-cash
-{
-    margin-left: 107px;
-
-}
-.img-res
-{
-    height: 20px;
-    margin-bottom: 10px;
-}
-.off-style
-{
-    background-color: white !important;
-   
-}
-.menu-off
-{
-    color: black !important;
-
+     
 }
 .text-align
 {
@@ -146,8 +65,7 @@
 }
 .text-parent-dev
 {
-    font-size: x-large;
-    color: rgb(17, 103, 216);
+    font-size: large;
     text-transform: uppercase;
 
 }

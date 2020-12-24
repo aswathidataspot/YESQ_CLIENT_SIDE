@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from '../Sidebar/Sidebar'
 import Header from '../Header/Header.js'
+import Banner from '../Banner/Banner.js'
 import './home.css'
 import banner from '../..//assets/banner.jpg'
 import bank from '..//..//assets/bank.svg'
@@ -17,11 +18,11 @@ export default function Home() {
         <div>
             <Header/>
                 <div class="uk-visible@m">
-                    <img className=" " src={banner}/>
+                    <Banner/>
                 </div>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-2 home-style1">
+                        <div class="col-lg-2 home-style1 ">
                             <label>Please select your <br/> location for better<br/> experience</label> <hr/>
                             <h5 class="uk-text-primary">Filters</h5><br/>
                             <p class="uk-text-uppercase uk-text-primary">Categories</p><hr/>
@@ -118,76 +119,76 @@ export default function Home() {
                         <div class="col-lg-10 home-style2">
                             <div class="row">
                             <div class="col-lg-3">
-                            <div class="uk-card card-style uk-card-default uk-card-body uk-margin-large-top uk-margin-left uk-width-1-4@l uk-width-1-1@s">
-                                <div class="icon-parent-div"><img className="card-img" src={bank}/></div> <br/>
+                            <div class="uk-card card-style uk-card-default uk-card-body uk-margin-xlarge-top uk-margin-left uk-width-1-4@l uk-width-1-1@s">
+                                <div class="icon-parent-div"><img className="card-img uk-align-center" src={bank}/></div> <br/><br/>
                                 <div class="uk-text-center">
-                                <h3 class="uk-card-title uk-margin-left text-parent-dev uk-text-bold">Banks</h3>
-                                <p><a href=""class="text-align">Co-Operative</a></p>
-				                <p><a href=""class="text-align">Nationalized</a></p>
-				                <p><a href=""class="text-align">Finance</a></p>
-				                <p><a href=""class="text-align">Others</a></p>
+                                <h3 class="uk-card-title uk-margin-left uk-text-primary text-parent-dev uk-text-bold">Banks</h3>
+                                <p><a href="#"class="text-align">Co-Operative</a></p>
+				                <p><a href="#"class="text-align">Nationalized</a></p>
+				                <p><a href="#"class="text-align">Finance</a></p>
+				                <p><a href="#"class="text-align">Others</a></p>
                                 </div>
                             </div>
                             </div>
                             <div class="col-lg-3">
-                            <div class="uk-card card-style uk-card-default uk-card-body uk-margin-large-top uk-margin-left uk-width-1-4@m uk-width-1-1@s">
-                                <div class="icon-parent-div"><img className="card-img" src={hospital}/></div> <br/>
+                            <div class="uk-card card-style uk-card-default uk-card-body uk-margin-xlarge-top uk-margin-left uk-width-1-4@m uk-width-1-1@s">
+                                <div class="icon-parent-div"><img className="card-img" src={hospital}/></div> <br/><br/>
                                 <div class="uk-text-center">
-                                <h3 class="uk-card-title uk-margin-left text-parent-dev uk-text-bold">HOSPITAL</h3>
-                                <p><a href=""class="text-align">GOVT : HOSPITAL</a></p>
-				                <p><a href=""class="text-align">GOVT : HEALTH CENTER</a></p>
-				                <p><a href=""class="text-align">PRIVATE HOSPITAL</a></p>
-				                <p><a href=""class="text-align">Others</a></p>
+                                <h3 class="uk-card-title uk-margin-left text-parent-dev uk-text-primary uk-text-bold">HOSPITAL</h3>
+                                <p><a href="#"class="text-align">GOVT : HOSPITAL</a></p>
+				                <p><a href="#"class="text-align">GOVT : HEALTH CENTER</a></p>
+				                <p><a href="#"class="text-align">PRIVATE HOSPITAL</a></p>
+				                <p><a href="#"class="text-align">Others</a></p>
                                 </div>
                             </div>
                             </div>
                             <div class="col-lg-3">
-                            <div class="uk-card card-style uk-card-default uk-card-body uk-margin-large-top uk-margin-left uk-width-1-4@m uk-width-1-1@s">
-                                <div class="icon-parent-div"><img className="card-img" src={govt}/></div> <br/>
+                            <div class="uk-card card-style uk-card-default uk-card-body uk-margin-xlarge-top uk-margin-left uk-width-1-4@m uk-width-1-1@s">
+                                <div class="icon-parent-div"><img className="card-img" src={govt}/></div> <br/><br/>
                                 <div class="uk-text-center">
-                                <h3 class="uk-card-title uk-margin-left text-parent-dev uk-text-bold">GOVT:INST</h3>
-                                <p><a href=""class="text-align">VILLAGE OFFICE</a></p>
-				                <p><a href=""class="text-align">PANCHAYATH</a></p>
-				                <p><a href=""class="text-align">CORPORATION</a></p>
-				                <p><a href=""class="text-align">Others</a></p>
+                                <h3 class="uk-card-title uk-margin-left uk-text-primary text-parent-dev uk-text-bold">GOVT:INST</h3>
+                                <p><a href="#"class="text-align">VILLAGE OFFICE</a></p>
+				                <p><a href="#"class="text-align">PANCHAYATH</a></p>
+				                <p><a href="#"class="text-align">CORPORATION</a></p>
+				                <p><a href="#"class="text-align">Others</a></p>
                                 </div>
                             </div>
                             </div>
                             <div class="col-lg-3">
-                            <div class="uk-card card-style uk-card-default uk-card-body uk-margin-large-top uk-margin-left uk-width-1-4@m uk-width-1-1@s">
-                                <div class="icon-parent-div"><img className="card-img" src={civil}/></div> <br/>
+                            <div class="uk-card card-style uk-card-default uk-card-body uk-margin-xlarge-top uk-margin-left uk-width-1-4@m uk-width-1-1@s">
+                                <div class="icon-parent-div"><img className="card-img" src={civil}/></div> <br/><br/>
                                 <div class="uk-text-center">
-                                <h3 class="uk-card-title uk-margin-left text-parent-dev uk-text-bold">CIVIL SUPPLY</h3>
-                                <p><a href=""class="text-align">RATION SHOP</a></p>
-				                <p><a href=""class="text-align">SUPPLYCO</a></p>
-				                <p><a href=""class="text-align">CV 3</a></p>
-				                <p><a href=""class="text-align">Others</a></p>
+                                <h3 class="uk-card-title uk-margin-left uk-text-primary text-parent-dev uk-text-bold">CIVIL SUPPLY</h3>
+                                <p><a href="#"class="text-align">RATION SHOP</a></p>
+				                <p><a href="#"class="text-align">SUPPLYCO</a></p>
+				                <p><a href="#"class="text-align">CV 3</a></p>
+				                <p><a href="#"class="text-align">Others</a></p>
                                 </div>
                             </div>
                             </div>
                             </div>
                             <div class="row">
                             <div class="col-lg-3">
-                            <div class="uk-card card-style uk-card-default uk-card-body uk-margin-large-top uk-margin-left uk-width-1-4@m uk-width-1-1@s">
-                                <div class="icon-parent-div"><img className="card-img" src={internet}/></div> <br/>
+                            <div class="uk-card card-style uk-card-default uk-card-body uk-margin-xlarge-top uk-margin-left uk-width-1-4@m uk-width-1-1@s">
+                                <div class="icon-parent-div"><img className="card-img" src={internet}/></div> <br/><br/>
                                 <div class="uk-text-center">
-                                <h3 class="uk-card-title uk-margin-left text-parent-dev uk-text-bold">INTERNET HELP</h3>
-                                <p><a href=""class="text-align">AKSHAYA</a></p>
-				                <p><a href=""class="text-align">JANASEVA</a></p>
-				                <p><a href=""class="text-align">INTERNET CAFE</a></p>
-				                <p><a href=""class="text-align">Others</a></p>
+                                <h3 class="uk-card-title uk-margin-left uk-text-primary text-parent-dev uk-text-bold">INTERNET_HELP</h3>
+                                <p><a href="#"class="text-align">AKSHAYA</a></p>
+				                <p><a href="#"class="text-align">JANASEVA</a></p>
+				                <p><a href="#"class="text-align">INTERNET CAFE</a></p>
+				                <p><a href="#"class="text-align">Others</a></p>
                                 </div>
                             </div>
                             </div>
                             <div class="col-lg-3">
-                            <div class="uk-card card-style uk-card-default uk-card-body uk-margin-large-top uk-margin-left uk-width-1-4@m uk-width-1-1@s">
-                                <div class="icon-parent-div"><img className="card-img" src={others}/></div> <br/>
+                            <div class="uk-card card-style uk-card-default uk-card-body uk-margin-xlarge-top uk-margin-left uk-width-1-4@m uk-width-1-1@s">
+                                <div class="icon-parent-div"><img className="card-img" src={others}/></div> <br/><br/>
                                 <div class="uk-text-center">
-                                <h3 class="uk-card-title uk-margin-left text-parent-dev uk-text-bold">OTHERS</h3>
-                                <p><a href=""class="text-align">TOURISM SECTORS</a></p>
-				                <p><a href=""class="text-align">SHOPPING</a></p>
-				                <p><a href=""class="text-align">WORK SHOP</a></p>
-				                <p><a href=""class="text-align">Others</a></p>
+                                <h3 class="uk-card-title uk-margin-left uk-text-primary text-parent-dev uk-text-bold">OTHERS</h3>
+                                <p><a href="#"class="text-align">TOURISM SECTORS</a></p>
+				                <p><a href="#"class="text-align">SHOPPING</a></p>
+				                <p><a href="#"class="text-align">WORK SHOP</a></p>
+				                <p><a href="#"class="text-align">Others</a></p>
                             </div>  
                             </div>
                             </div>

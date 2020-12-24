@@ -6,11 +6,57 @@
 .search-style
 {
     width: 250px;
+    color: black;
 }
 .back-style
 {
    border-radius: 5px;
    color: black;
-   border-color: black;
+   border-color: black !important;
+   background-color: rgb(255, 255, 255);
 
+}
+.header_in
+{
+    margin-bottom: -40px;
+}
+.nav-dev
+{
+    margin-top: -15px;
+}
+.off-style
+{
+    background-color: white !important;
+   
+} 
+.btn-style
+{
+   border-radius: 8px;
+   width: 38px;
+   
+
+}
+.search-label
+{
+    margin-left: -21px;
+    font-size: 11px;
+}
+.sign-label{
+    font-size: 11px;
+    margin-left: -21px;
+
+
+}
+.btn-search-style
+{
+   border-radius: 8px;
+   width: 38px;
+   height: 30px;
+   
+   
+
+}
+.tocken-img{
+    margin-bottom: 13px;
+    margin-left: 25px;
 }
